@@ -10,7 +10,7 @@ const Pokemon = ({ pokemon }) => {
 const Pokemones = ({ pokemones }) => {
   return (
     <div>
-      <p>Pokemones</p>
+      <p>Mi App de Pokemones</p>
       <ul>
         {pokemones.map(pokemon => <Pokemon pokemon={pokemon} key={pokemon.name}/>)}
       </ul>
